@@ -1,5 +1,5 @@
 /* Angel Cuenca
- * Jan 2017
+ * Feb 2017
  *
  * Problem:
  * HackerLand University has the following grading policy:
