@@ -1,17 +1,18 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
-
 /* Angel Cuenca
  * Jan 2017
  *
  * Problem:
- * Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers
+ * Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of
+ * the five integers.
  * Then print the respective minimum and maximum values as a single line of two space-separated long integers.
  * Input Format: A single line of five space-separated integers.
- * Output Format: Print two space-separated long integers denoting the respective minimum and maximum values that can be calculated by
- *                summing exactly four of the five integers. (The output can be greater than 32 bit integer.)
+ * Output Format: Print two space-separated long integers denoting the respective minimum and maximum values that can be
+ *                calculated by summing exactly four of the five integers The output can be greater than 32 bit integer.
  */
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class MiniMaxSum {
     public static void main(String[] args) {
@@ -23,9 +24,9 @@ public class MiniMaxSum {
         long d = in.nextLong();
         long e = in.nextLong();
 
-        long min=0;
-        long max=0;
-        
+        long min = 0;
+        long max = 0;
+
         long[] data = new long[5];
         data[0] = a;
         data[1] = b;
