@@ -15,9 +15,6 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-/**
- * Created by angel_cuenca on 14/03/17.
- */
 public class Kangaroo{
 
     public static void main(String[] args) {
