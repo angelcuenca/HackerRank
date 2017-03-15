@@ -25,7 +25,7 @@ public class Kangaroo{
         int v2 = in.nextInt();
 
         //My Code
-        if(x1 == x2 && v1 == v2 ){
+        if((x1 == x2) && (v1 == v2) ){
             System.out.println("YES");
         }else{
             if( ((x1 < x2) && (v1 <= v2)) || ((x2 < x1) && (v2 <= v1)) ){
