@@ -1,1 +1,1 @@
-Solving code challenges from HackerRank webpage.
+Solving code problems from [HackerRank](https://www.hackerrank.com/) webpage.
